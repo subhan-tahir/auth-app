@@ -16,9 +16,9 @@ app.use(express.json());
 
 // Use CORS and specify your Vercel frontend domain
 app.use(cors({
-    // origin: 'authentication-form-42e5gm31j-subhan-tahirs-projects.vercel.app', // Replace with your Vercel frontend domain
-    // methods: ['GET', 'POST', 'PUT'], // Specify allowed HTTP methods
-    // credentials: true, // Include credentials if needed (e.g., cookies or HTTP auth)
+    origin: 'https://auth-app-two-alpha.vercel.app/login', // Replace with your Vercel frontend domain
+    methods: ['GET', 'POST'], // Specify allowed HTTP methods
+    credentials: true, // Include credentials if needed (e.g., cookies or HTTP auth)
 }));
 
 //get 
