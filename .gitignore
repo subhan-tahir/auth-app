@@ -12,7 +12,7 @@ Frontened/node_modules
 Backend/node_modules
 
 # Environment Variables
-Backend/ .env
+Backend/.env
 
 dist
 dist-ssr
