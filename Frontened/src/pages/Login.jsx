@@ -52,7 +52,7 @@ const Login = () => {
         }
 
         try {
-            const response = await axios.post('auth-backend-delta.vercel.app/login', { email, password });
+            const response = await axios.post('https://auth-app-two-alpha.vercel.app/login', { email, password });
 
             if (response?.data?.success) {
                 const username = response.data.data.username; // Assuming `username` is in the `data`
